@@ -1,0 +1,12 @@
+The primary purpose of this project is to refamiliarize with javascript.
+
+To do that I want to create a simple page that satisfied a personal curiosity:
+I want to understand how easy it is to perform object recognition under limited resource constraints.
+To simplify the test I don't use full blown video but a simplistic single dimensional animation in the form of a 
+string where the "object/shape" is a word moving within the string
+The goal of this code
+a) create a semi-realisticially moving shape  (using some combination of keyboard inputing etc)
+b) record the video under some sampling frequency
+c) Use a highly constrained system (low mem, low cpy, high FPS) to "watch" the recording's playback.
+that attempts to see the interesting characteristics (in this case the moving word)
+e) Produce a playback of what the system sees and compare with the original recording playback
